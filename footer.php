@@ -4,7 +4,7 @@
         <div class="container">
         <!-- Copyright -->
             <div class="footer-copyright text-center py-3">© 2021 Copyright: Mark Gaultney | Created by: 
-                <a href="https://elis.space"> Elis.Space</a>
+                <a href="https://elis.space"> Elis.Space has been hacked by Git</a>
             </div>
         <!-- Copyright -->
         </div>
