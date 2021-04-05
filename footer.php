@@ -1,10 +1,10 @@
 </div> <!-- close body container class -->
 
 <footer class="footer bg-info text-white">
-        <div class="container">
+        <div class="container fixed-bottom">
         <!-- Copyright -->
             <div class="footer-copyright text-center py-3">© 2021 Copyright: Mark Gaultney | Created by: 
-                <a href="https://elis.space"> Elis.Space has been hacked by Git</a>
+                <a href="https://elis.space"> Elis.Space</a>
             </div>
         <!-- Copyright -->
         </div>
