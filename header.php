@@ -1,3 +1,7 @@
+<!doctype html>
+
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,11 +18,11 @@
                 case "default":
                     echo "Gaultney Management LLC";
                     break;
-                case "captionArchive":
-                    echo "POTW: Caption Archive";
+                case "app":
+                    echo "Fill Out An Application";
                     break;
-                case "captionSubmit":
-                    echo "POTW: Submit A Caption";
+                case "test":
+                    echo "Playground / Sandbox / Whatever";
                     break;
                 case "captionVote":
                     echo "POTW: Vote On Your Favorite Caption";
@@ -41,7 +45,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-info">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <a class="navbar-brand" href="#">Gaultney Management LLC</a>
+        <a class=" text-dark navbar-brand" href="index.php">Gaultney Management LLC</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

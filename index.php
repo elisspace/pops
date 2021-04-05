@@ -1,7 +1,3 @@
-<!doctype html>
-
-<html lang="en">
-
 <?php 
     $page = "default";
     include 'header.php'; 
@@ -13,7 +9,7 @@
         <div class="card bg-dark text-white">
             <img class="card-img" src="200x200.svg" alt="Card image">
             <div class="card-body">
-                <a href="application.php" class="stretched-link h5">Application</a>
+                <a href="app.php" class="stretched-link h5">Application</a>
             </div>
         </div>
     </div>
@@ -49,4 +45,3 @@
 <?php 
     include 'footer.php'; 
 ?>
-</html>
