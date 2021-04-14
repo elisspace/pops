@@ -25,7 +25,7 @@
                     echo "Playground / Sandbox / Whatever";
                     break;
                 case "captionVote":
-                    echo "POTW: Vote On Your Favorite Caption";
+                    echo "Eat Your Spinach Laddies";
                     break;
                 case "CurrentProblems":
                     echo "POTW: This Week's Math Problems";
