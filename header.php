@@ -21,8 +21,8 @@
                 case "app":
                     echo "Fill Out An Application";
                     break;
-                case "test":
-                    echo "Playground / Sandbox / Whatever";
+                case "property":
+                    echo "View Our Properties";
                     break;
                 case "captionVote":
                     echo "Eat Your Spinach Laddies";

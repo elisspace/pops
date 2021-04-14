@@ -17,7 +17,7 @@
         <div class="card bg-dark text-white" >
             <img class="card-img" src="200x200.svg" alt="Card image">
             <div class="card-body">
-                <a href="application.php" class="stretched-link h5">Properties</a>
+                <a href="property.php" class="stretched-link h5">Properties</a>
             </div>
         </div>  
     </div>
