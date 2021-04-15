@@ -19,6 +19,10 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -29,6 +33,18 @@
             </div>
             <div class="carousel-item">
               <img src="pics\shankle\signal-2021-04-09-011948_003.jpeg" class="d-block w-100" alt="alt text 3">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\shankle\signal-2021-04-09-011948_004.jpeg" class="d-block w-100" alt="alt text 4">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\shankle\signal-2021-04-09-011948_005.jpeg" class="d-block w-100" alt="alt text 5">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\shankle\signal-2021-04-09-011948_006.jpeg" class="d-block w-100" alt="alt text 6">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\shankle\signal-2021-04-09-011948_007.jpeg" class="d-block w-100" alt="alt text 7">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,8 +57,8 @@
           </button>
         </div>
 
-        <!-- end of carousel -->
-        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <!-- end of Shankle pics -->
+        <strong>Shankle Rd Apartment</strong> With 3 rooms, 2 bathrooms, a spiral staircase and a trap-door safe, you'll always have somewhere to hide on Shankle Road.
       </div>
     </div>
   </div>
