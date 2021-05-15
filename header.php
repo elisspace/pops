@@ -46,9 +46,12 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-info">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
         <a class=" text-dark navbar-brand" href="index.php">Gaultney Management LLC</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Button that toggles when screen size is small enough below -->
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+        </button> -->
+        
+        <!-- links that go in header menu (and under button when collapsed) below -->
         <!-- <div class="collapse navbar-collapse text-center" id="navbarsExample11">
             <ul class="navbar-nav">
                 <li class="nav-item active">
