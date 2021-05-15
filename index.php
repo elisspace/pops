@@ -28,7 +28,7 @@
         <div class="card bg-dark text-white">
             <img class="card-img" src="200x200.svg" alt="Card image">
             <div class="card-body">
-                <a href="application.php" class="stretched-link h5">Submit A Ticket</a>
+                <a href="maintenance.php" class="stretched-link h5">Submit A Ticket</a>
             </div>
         </div>
     </div>
