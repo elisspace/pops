@@ -8,7 +8,7 @@
     <div class="col-sm-2">
         <!-- check on which way the slash needs to be. was previously \ but now / on windows -->
         <img src="pics\shankle\shankle_front.jpg" class="d-block w-100" alt="alt text 3">
-        Shankle Road: <b>Unavailable</b>
+        Shankle Road: Unavailable
     </div>
     <div class="col-sm-2">
         <img src="pics\barn\barn_front.jpg" class="d-block w-100" alt="alt text 3">
@@ -16,11 +16,11 @@
     </div>
     <div class="col-sm-2">
         <img src="pics\cotton\cotton_front.jpg" class="d-block w-100" alt="alt text 3">
-        Cotton Street: <b>Unavailable</b>
+        Cotton Street: Unavailable
     </div>
     <div class="col-sm-2">
         <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 3">
-        Apartment B: <b>Unavailable</b>
+        Apartment B: Unavailable
     </div>
 </div>
 
