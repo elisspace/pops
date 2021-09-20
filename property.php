@@ -113,7 +113,7 @@
           </button>
         </div>
         <!-- end of barn apt pics -->
-        <strong>Rosewood's Barn Apartment</strong>Ever wanted to live on an honest-to-God working cattle farm? Nothing will be more authentic than this cute apartment bordered by a barn (naturally) and green and clean pasture. Look out your window and enjoy watching deer frolic past happy cows, put on your boots, hop into your truck, and head to the Wal-Mart parking lot for another rolicking good night in the country. 
+        <strong>Rosewood's Barn Apartment</strong> Ever wanted to live on an honest-to-God working cattle farm? Nothing will be more authentic than this cute apartment bordered by a barn (naturally) and green and clean pasture. Look out your window and enjoy watching deer frolic past happy cows, put on your boots, hop into your truck, and head to the Wal-Mart parking lot for another rolicking good night in the country. 
       </div>
     </div>
   </div>
@@ -235,6 +235,96 @@
         </div>
         <!-- end of lot E pics -->
         <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Lot D Trailer: Coming Soon!
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- Lot D pics go here -->
+        <div id="lotDCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#lotDCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#lotDCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#lotDCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#lotDCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#lotDCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pics\b\signal-2021-04-09-011605_001.jpeg" class="d-block w-100" alt="alt text 1">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\b\signal-2021-04-09-011605_002.jpeg" class="d-block w-100" alt="alt text 2">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\b\combined.jpg" class="d-block w-100" alt="alt text 3">
+            </div>
+           <div class="carousel-item">
+              <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#lotDCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#lotDCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end of lot E pics -->
+        <strong>Coming Soon</strong> More information and pictures!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        Cotton Street: Coming Soon!
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- Cotton Street pics go here -->
+        <div id="cottonStreetCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pics\b\signal-2021-04-09-011605_001.jpeg" class="d-block w-100" alt="alt text 1">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\b\signal-2021-04-09-011605_002.jpeg" class="d-block w-100" alt="alt text 2">
+            </div>
+            <div class="carousel-item">
+              <img src="pics\b\combined.jpg" class="d-block w-100" alt="alt text 3">
+            </div>
+           <div class="carousel-item">
+              <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end of Cotton Street pics -->
+        <strong>Coming Soon</strong> More information and pictures!
       </div>
     </div>
   </div>

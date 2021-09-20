@@ -6,20 +6,21 @@
 <!--Property Rented (or not) Row-->
 <div class="row justify-content-center text-center m-4">
     <div class="col-sm-2">
-        <img src="pics/shankle/signal-2021-04-09-011948_003.jpeg" class="d-block w-100" alt="alt text 3">
-        Shankle Road: <b>Available</b>
+        <!-- check on which way the slash needs to be. was previously \ but now / on windows -->
+        <img src="pics\shankle\shankle_front.jpg" class="d-block w-100" alt="alt text 3">
+        Shankle Road: <b>Unavailable</b>
     </div>
     <div class="col-sm-2">
-        <img src="pics/barn/signal-2021-04-09-011913_004.jpeg" class="d-block w-100" alt="alt text 3">
+        <img src="pics\barn\barn_front.jpg" class="d-block w-100" alt="alt text 3">
         Barn Apartment: Unavailable
     </div>
     <div class="col-sm-2">
-        <img src="pics/shankle/signal-2021-04-09-011948_003.jpeg" class="d-block w-100" alt="alt text 3">
-        Apartment E: <b>Available</b>
+        <img src="pics\cotton\cotton_front.jpg" class="d-block w-100" alt="alt text 3">
+        Cotton Street: <b>Unavailable</b>
     </div>
     <div class="col-sm-2">
-        <img src="pics/shankle/signal-2021-04-09-011948_003.jpeg" class="d-block w-100" alt="alt text 3">
-        Apartment B: <b>Available</b>
+        <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 3">
+        Apartment B: <b>Unavailable</b>
     </div>
 </div>
 
