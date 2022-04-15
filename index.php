@@ -20,7 +20,7 @@
     </div>
     <div class="col-sm-2">
         <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 3">
-        Apartment B: Unavailable
+        Lot B: Unavailable
     </div>
 </div>
 

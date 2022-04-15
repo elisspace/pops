@@ -57,7 +57,7 @@
           </button>
         </div>
         <!-- end of Shankle pics -->
-        <strong>Shankle Rd Apartment</strong> 2 BR, 1 BA, living area, kitchen with eating space, storage room, central heat and air, front porch, corner lot with off-street parking, stove, microwave, dishwasher, and refrigerator. Washer/dryer connections in kitchen.
+        <strong>Shankle Rd Apartment</strong><br> 2 BR, 1 BA, living area, kitchen with eating space, storage room, central heat and air, front porch, corner lot with off-street parking, stove, microwave, dishwasher, and refrigerator. Washer/dryer connections in kitchen.
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@
           </button>
         </div>
         <!-- end of barn apt pics -->
-        <strong>Rosewood's Barn Apartment</strong>1 BR, 1BA, kitchen with eating space, gas heater, stove, refrigerator, window AC unit. Entrance from deck overlooking pasture and woods.  Nestled on end of barn and very private. All utilities included. Off-street parking. 425 sq. ft.
+        <strong>Barn Apartment</strong><br> 1 BR, 1BA, kitchen with eating space, gas heater, stove, refrigerator, window AC unit. Entrance from deck overlooking pasture and woods.  Nestled on end of barn and very private. All utilities included. Off-street parking. 425 sq. ft.
       </div>
     </div>
   </div>
@@ -189,7 +189,7 @@
           </button>
         </div>
         <!-- end of lot E pics -->
-        <strong>Lot E Trailer</strong>Remodeled 2BR, 1BA trailer, window ac units, gas heat, front deck, washer/dryer connections, electric stove, and refrigerator.  In a park with only five homes, very private, off-street parking.  All utilities included.  Lawn service and trash pick-up at trailer included. 750 sq. ft
+        <strong>Lot E Trailer</strong><br>Remodeled 2BR, 1BA trailer, window ac units, gas heat, front deck, washer/dryer connections, electric stove, and refrigerator.  In a park with only five homes, very private, off-street parking.  All utilities included.  Lawn service and trash pick-up at trailer included. 750 sq. ft
       </div>
     </div>
   </div>
@@ -234,7 +234,7 @@
           </button>
         </div>
         <!-- end of lot B pics -->
-        <strong>Lot B Trailer</strong>Remodeled 2BR, 1BA trailer, window ac units, electric heat, stove, washer/dryer connections, refrigerator, front deck at ground level.  In a park with only five homes, very private, off-street parking.  All utilities included plus internet.  Lawn service and trash pick-up at trailer included. 750 sq. ft.
+        <strong>Lot B Trailer</strong><br>Remodeled 2BR, 1BA trailer, window ac units, electric heat, stove, washer/dryer connections, refrigerator, front deck at ground level.  In a park with only five homes, very private, off-street parking.  All utilities included plus internet.  Lawn service and trash pick-up at trailer included. 750 sq. ft.
       </div>
     </div>
   </div>
@@ -257,16 +257,16 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="pics\b\signal-2021-04-09-011605_001.jpeg" class="d-block w-100" alt="alt text 1">
+              <img src="" class="d-block w-100" alt="alt text 1">
             </div>
             <div class="carousel-item">
-              <img src="pics\b\signal-2021-04-09-011605_002.jpeg" class="d-block w-100" alt="alt text 2">
+              <img src="" class="d-block w-100" alt="alt text 2">
             </div>
             <div class="carousel-item">
-              <img src="pics\b\combined.jpg" class="d-block w-100" alt="alt text 3">
+              <img src="" class="d-block w-100" alt="alt text 3">
             </div>
            <div class="carousel-item">
-              <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 4">
+              <img src="" class="d-block w-100" alt="alt text 4">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#lotDCarousel" data-bs-slide="prev">
@@ -279,7 +279,7 @@
           </button>
         </div>
         <!-- end of lot D pics -->
-        <strong>Lot D</strong> Remodeled 2BR, 1BA trailer, window ac units, gas and electric heat, gas stove, washer/dryer connections and refrigerator.  In a park with only five homes, very private, off-street parking.  Screened porch overlooking woods.  All utilities included plus internet.  Lawn service and trash pick-up at trailer included. 750 sq. ft.
+        <strong>Lot D</strong><br>Remodeled 2BR, 1BA trailer, window ac units, gas and electric heat, gas stove, washer/dryer connections and refrigerator.  In a park with only five homes, very private, off-street parking.  Screened porch overlooking woods.  All utilities included plus internet.  Lawn service and trash pick-up at trailer included. 750 sq. ft.
       </div>
     </div>
   </div>
@@ -302,16 +302,16 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="pics\b\signal-2021-04-09-011605_001.jpeg" class="d-block w-100" alt="alt text 1">
+              <img src="" class="d-block w-100" alt="alt text 1">
             </div>
             <div class="carousel-item">
-              <img src="pics\b\signal-2021-04-09-011605_002.jpeg" class="d-block w-100" alt="alt text 2">
+              <img src="" class="d-block w-100" alt="alt text 2">
             </div>
             <div class="carousel-item">
-              <img src="pics\b\combined.jpg" class="d-block w-100" alt="alt text 3">
+              <img src="" class="d-block w-100" alt="alt text 3">
             </div>
            <div class="carousel-item">
-              <img src="pics\b\signal-2021-04-09-011605_005.jpeg" class="d-block w-100" alt="alt text 4">
+              <img src="" class="d-block w-100" alt="alt text 4">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#cottonStreetCarousel" data-bs-slide="prev">
@@ -324,7 +324,7 @@
           </button>
         </div>
         <!-- end of Cotton Street pics -->
-        <strong>Cotton Street</strong> 2 BR, 1 BA, living area, kitchen with eating space, washer/dryer connections in bathroom, stove and refrigerator, window AC units. Off-street parking. 900 sq. ft.
+        <strong>Cotton Street</strong><br>2 BR, 1 BA, living area, kitchen with eating space, washer/dryer connections in bathroom, stove and refrigerator, window AC units. Off-street parking. 900 sq. ft.
       </div>
     </div>
   </div>
@@ -369,7 +369,7 @@
           </button>
         </div>
         <!-- end of Rock Spring A pics -->
-        <strong>Rocksprings A</strong> 1BR, 1BA in duplex, kitchen with eating space, stove, refrigerator, dishwasher, stack washer/dryer, back-up gas heater.  Large living area. Central heat and air. All utilities included.  Off-street parking. 675 sq. ft.
+        <strong>Rocksprings A</strong><br>1BR, 1BA in duplex, kitchen with eating space, stove, refrigerator, dishwasher, stack washer/dryer, back-up gas heater.  Large living area. Central heat and air. All utilities included.  Off-street parking. 675 sq. ft.
       </div>
     </div>
   </div>
@@ -414,7 +414,7 @@
           </button>
         </div>
         <!-- end of Rock Spring B pics -->
-        <strong>Rocksprings B</strong> 1BR, 1BA in duplex, kitchen with eating space, stove, refrigerator, dishwasher, stack washer/dryer, back-up gas heater.  Large living area. Central heat and air. All utilities included.  Off-street parking. 675 sq. ft.
+        <strong>Rocksprings B</strong><br>1BR, 1BA in duplex, kitchen with eating space, stove, refrigerator, dishwasher, stack washer/dryer, back-up gas heater.  Large living area. Central heat and air. All utilities included.  Off-street parking. 675 sq. ft.
       </div>
     </div>
   </div>
