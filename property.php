@@ -57,7 +57,7 @@
           </button>
         </div>
         <!-- end of Shankle pics -->
-        <strong>Shankle Rd Apartment</strong> With 3 rooms, 2 bathrooms, a spiral staircase and a trap-door safe, you'll always have somewhere to hide on Shankle Road.
+        <strong>Shankle Rd Apartment</strong> With 4 rooms, 2 bathrooms, a spiral staircase and a trap-door safe, you'll always have somewhere to hide on Shankle Road.
       </div>
     </div>
   </div>
