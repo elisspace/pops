@@ -418,6 +418,51 @@
       </div>
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingNine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+        Farm Cottage
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- Rock Spring B pics go here -->
+        <div id="farmCottageCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#farmCottageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#farmCottageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#farmCottageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#farmCottageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#farmCottageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="" class="d-block w-100" alt="alt text 1">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 2">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 3">
+            </div>
+           <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#farmCottageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#farmCottageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end of Farm Cottage pics -->
+        <strong>Farm Cottage</strong><br>1BR, 1BA, living area, kitchen with eating space, laundry room with washer/dryer connections, walk-through closet, electric heat, window AC, off-street parking.  Located on a family farm, quiet and private.  Water and sewer provided, you pay electric and take care of your trash. 900 sq. ft.
+      </div>
+    </div>
+  </div>
 </div>
 
 <?php 

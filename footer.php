@@ -4,7 +4,7 @@
 <footer class="bg-info text-center ">
   <!-- Copyright -->
   <div class="text-center p-3" >
-    © 2021 Copyright: <b>Mark Gaultney</b> & Designed by: 
+    © 2022 Copyright: <b>Mark Gaultney</b> & Designed by: 
     <a class="text-dark" href="https://elis.space/"><b>Elis.Space</b></a>
   </div>
   <!-- Copyright -->
