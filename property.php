@@ -57,7 +57,7 @@
           </button>
         </div>
         <!-- end of Shankle pics -->
-        <strong>Shankle Rd Apartment</strong> With 4 rooms, 2 bathrooms, a spiral staircase and a trap-door safe, you'll always have somewhere to hide on Shankle Road.
+        <strong>Shankle Rd Apartment</strong> 2 BR, 1 BA, living area, kitchen with eating space, storage room, central heat and air, front porch, corner lot with off-street parking, stove, microwave, dishwasher, and refrigerator. Washer/dryer connections in kitchen.
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@
           </button>
         </div>
         <!-- end of barn apt pics -->
-        <strong>Rosewood's Barn Apartment</strong> Ever wanted to live on an honest-to-God working cattle farm? Nothing will be more authentic than this cute apartment bordered by a barn (naturally) and green and clean pasture. Look out your window and enjoy watching deer frolic past happy cows, put on your boots, hop into your truck, and head to the Wal-Mart parking lot for another rolicking good night in the country. 
+        <strong>Rosewood's Barn Apartment</strong>1 BR, 1BA, kitchen with eating space, gas heater, stove, refrigerator, window AC unit. Entrance from deck overlooking pasture and woods.  Nestled on end of barn and very private. All utilities included. Off-street parking. 425 sq. ft.
       </div>
     </div>
   </div>
@@ -189,7 +189,7 @@
           </button>
         </div>
         <!-- end of lot E pics -->
-        <strong>Lot E Trailer</strong> An excellent example of an Earth-dwelling. Not experimental, but instead purely enjoyable. Extraordinary entertainment awaits! 
+        <strong>Lot E Trailer</strong>Remodeled 2BR, 1BA trailer, window ac units, gas heat, front deck, washer/dryer connections, electric stove, and refrigerator.  In a park with only five homes, very private, off-street parking.  All utilities included.  Lawn service and trash pick-up at trailer included. 750 sq. ft
       </div>
     </div>
   </div>
@@ -233,8 +233,8 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <!-- end of lot E pics -->
-        <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <!-- end of lot B pics -->
+        <strong>Lot B Trailer</strong>Remodeled 2BR, 1BA trailer, window ac units, electric heat, stove, washer/dryer connections, refrigerator, front deck at ground level.  In a park with only five homes, very private, off-street parking.  All utilities included plus internet.  Lawn service and trash pick-up at trailer included. 750 sq. ft.
       </div>
     </div>
   </div>
@@ -278,15 +278,15 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <!-- end of lot E pics -->
-        <strong>Coming Soon</strong> More information and pictures!
+        <!-- end of lot D pics -->
+        <strong>Lot D</strong> Remodeled 2BR, 1BA trailer, window ac units, gas and electric heat, gas stove, washer/dryer connections and refrigerator.  In a park with only five homes, very private, off-street parking.  Screened porch overlooking woods.  All utilities included plus internet.  Lawn service and trash pick-up at trailer included. 750 sq. ft.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        Cotton Street: Coming Soon!
+        Cotton Street
       </button>
     </h2>
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -324,7 +324,97 @@
           </button>
         </div>
         <!-- end of Cotton Street pics -->
-        <strong>Coming Soon</strong> More information and pictures!
+        <strong>Cotton Street</strong> 2 BR, 1 BA, living area, kitchen with eating space, washer/dryer connections in bathroom, stove and refrigerator, window AC units. Off-street parking. 900 sq. ft.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Rock Springs A
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- Rock Spring A pics go here -->
+        <div id="rockSpringCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#rockSpringCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#rockSpringCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#rockSpringCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#rockSpringCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#rockSpringCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="" class="d-block w-100" alt="alt text 1">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 2">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 3">
+            </div>
+           <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#rockSpringCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#rockSpringCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end of Rock Spring A pics -->
+        <strong>Rocksprings A</strong> 1BR, 1BA in duplex, kitchen with eating space, stove, refrigerator, dishwasher, stack washer/dryer, back-up gas heater.  Large living area. Central heat and air. All utilities included.  Off-street parking. 675 sq. ft.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        Rock Springs B
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- Rock Spring B pics go here -->
+        <div id="rockSpringBCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="" class="d-block w-100" alt="alt text 1">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 2">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 3">
+            </div>
+           <div class="carousel-item">
+              <img src="" class="d-block w-100" alt="alt text 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#rockSpringBCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end of Rock Spring B pics -->
+        <strong>Rocksprings B</strong> 1BR, 1BA in duplex, kitchen with eating space, stove, refrigerator, dishwasher, stack washer/dryer, back-up gas heater.  Large living area. Central heat and air. All utilities included.  Off-street parking. 675 sq. ft.
       </div>
     </div>
   </div>
