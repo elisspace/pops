@@ -47,7 +47,8 @@
   </button>
 </div> <!-- End Carousel -->
 
-<strong>Barn Apartment</strong><br> 1 BR, 1BA, kitchen with eating space, gas heater, stove, refrigerator, window AC unit. Entrance from deck overlooking pasture and woods.  Nestled on end of barn and very private. All utilities included. Off-street parking. 425 sq. ft.
+<strong>Barn Apartment</strong>
+<br>1 BR, 1BA, kitchen with eating space, gas heater, stove, refrigerator, window AC unit. Entrance from deck overlooking pasture and woods.  Nestled on end of barn and very private. All utilities included. Off-street parking. 425 sq. ft.
 
 <?php 
     include '../footer.php'; 
