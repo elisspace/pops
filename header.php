@@ -13,30 +13,6 @@
     <title>
         <?php
             echo $page;
-            
-            // switch ($page) {
-            //     case "default":
-            //         echo "Gaultney Management LLC";
-            //         break;
-            //     case "app":
-            //         echo "Fill Out An Application";
-            //         break;
-            //     case "property":
-            //         echo "View Our Properties";
-            //         break;
-            //     case "captionVote":
-            //         echo "Eat Your Spinach Laddies";
-            //         break;
-            //     case "CurrentProblems":
-            //         echo "POTW: This Week's Math Problems";
-            //         break;
-            //     case "LastWeekSolutions":
-            //         echo "POTW: Last Week's Solutions";
-            //         break;
-            //     case "MathArchive":
-            //         echo "POTW: Problem and Solution Archive";
-            //         break;
-            // }
         ?>
     </title>
 </head>
