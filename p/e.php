@@ -18,9 +18,12 @@
     <button type="button" data-bs-target="#carousel-e" data-bs-slide-to="9" aria-label="Slide 10"></button>
     <button type="button" data-bs-target="#carousel-e" data-bs-slide-to="10" aria-label="Slide 11"></button>
     <button type="button" data-bs-target="#carousel-e" data-bs-slide-to="11" aria-label="Slide 12"></button>
-    
+    <button type="button" data-bs-target="#carousel-e" data-bs-slide-to="12" aria-label="Slide 13"></button>
   </div>
   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/pics/e/15290.jpeg" class="d-block w-100" alt="...">
+    </div>    
     <div class="carousel-item active">
       <img src="/pics/e/signal-2021-04-09-011711_001.jpeg" class="d-block w-100" alt="...">
     </div>
