@@ -12,31 +12,31 @@
     <link href="styles.css" rel="stylesheet">
     <title>
         <?php
-            //echo $page;
+            echo $page;
             
-            switch ($page) {
-                case "default":
-                    echo "Gaultney Management LLC";
-                    break;
-                case "app":
-                    echo "Fill Out An Application";
-                    break;
-                case "property":
-                    echo "View Our Properties";
-                    break;
-                case "captionVote":
-                    echo "Eat Your Spinach Laddies";
-                    break;
-                case "CurrentProblems":
-                    echo "POTW: This Week's Math Problems";
-                    break;
-                case "LastWeekSolutions":
-                    echo "POTW: Last Week's Solutions";
-                    break;
-                case "MathArchive":
-                    echo "POTW: Problem and Solution Archive";
-                    break;
-            }
+            // switch ($page) {
+            //     case "default":
+            //         echo "Gaultney Management LLC";
+            //         break;
+            //     case "app":
+            //         echo "Fill Out An Application";
+            //         break;
+            //     case "property":
+            //         echo "View Our Properties";
+            //         break;
+            //     case "captionVote":
+            //         echo "Eat Your Spinach Laddies";
+            //         break;
+            //     case "CurrentProblems":
+            //         echo "POTW: This Week's Math Problems";
+            //         break;
+            //     case "LastWeekSolutions":
+            //         echo "POTW: Last Week's Solutions";
+            //         break;
+            //     case "MathArchive":
+            //         echo "POTW: Problem and Solution Archive";
+            //         break;
+            // }
         ?>
     </title>
 </head>
@@ -45,7 +45,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-info">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <a class=" text-dark navbar-brand" href="index.php">Gaultney Management LLC</a>
+        <a class=" text-dark navbar-brand" href="../index.php">Gaultney Management LLC</a>
         <!-- Button that toggles when screen size is small enough below -->
         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span> 
