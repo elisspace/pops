@@ -11,7 +11,7 @@
     </div>
     <div class="col">
        <a href="p/barn.php"><img src="pics\barn\barn_front.jpg" class="d-block w-100" alt="Barn Apartment"></a>
-        Barn Apartment: <b>Unavailable</b>
+        Barn Apartment
     </div>
     <div class="col">
        <a href="p/cotton.php"> <img src="pics\cotton\cotton_front.jpg" class="d-block w-100" alt="Cotton Street"></a>
@@ -23,7 +23,7 @@
 <div class="row justify-content-center text-center m-2">
     <div class="col">
        <a href="p/b.php"> <img src="pics/b/signal-2021-04-09-011605_001.jpeg" class="d-block w-100" alt="Trailer Lot B"></a>
-        Trailer Lot B
+        Trailer Lot B: <b>Unavailable</b>
     </div>
     <div class="col">
        <a href="p/d.php"> <img src="pics/d/15263.jpeg" class="d-block w-100" alt="Trailer Lot D"></a>
@@ -31,7 +31,7 @@
     </div>
     <div class="col">
        <a href="p/e.php"> <img src="pics/e/signal-2021-04-09-011711_006.jpeg" class="d-block w-100" alt="Trailer Lot E"></a>
-        Trailer Lot E
+        Trailer Lot E: <b>Unavailable</b>
     </div>
 </div>
 
@@ -39,15 +39,15 @@
 <div class="row justify-content-center text-center m-2">
     <div class="col">
         <!-- <img src="pics\shankle\shankle_front.jpg" class="d-block w-100" alt="Rocksprings A"> -->
-        <a href="p/rocksprings-a.php">Rocksprings A</a>
+        <a href="p/rocksprings-a.php">Rocksprings A</a>: <b>Unavailable</b>
     </div>
     <div class="col">
         <!-- <img src="pics\barn\barn_front.jpg" class="d-block w-100" alt="Rocksprings B"> -->
-        <a href="p/rocksprings-b.php">Rocksprings B</a>
+        <a href="p/rocksprings-b.php">Rocksprings B</a>: <b>Unavailable</b>
     </div>
     <div class="col">
        <a href="p/cottage.php"> <img src="pics/cottage/20211120_091511.jpg" class="d-block w-100" alt="Barn Cottage"></a>
-        Barn Cottage
+        Barn Cottage: <b>Unavailable</b>
     </div>
 </div>
 
