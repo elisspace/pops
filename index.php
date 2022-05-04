@@ -6,15 +6,15 @@
 <!--Property Rented (or not) Row 1-->
 <div class="row justify-content-center text-center m-2">
     <div class="col">
-        <a href="p/shankle.php"><img src="pics\shankle\shankle_front.jpg" class="d-block w-100" alt="Shankle Road"></a>
+        <a href="p/shankle.php"><img src="pics/shankle/shankle_front_3_perc.webp" class="d-block w-100" alt="Shankle Road"></a>
         Shankle Road: <b>Unavailable</b>
     </div>
     <div class="col">
-       <a href="p/barn.php"><img src="pics\barn\barn_front.jpg" class="d-block w-100" alt="Barn Apartment"></a>
+       <a href="p/barn.php"><img src="pics/barn/barn_front_0_perc.webp" class="d-block w-100" alt="Barn Apartment"></a>
         Barn Apartment
     </div>
     <div class="col">
-       <a href="p/cotton.php"> <img src="pics\cotton\cotton_front.jpg" class="d-block w-100" alt="Cotton Street"></a>
+       <a href="p/cotton.php"> <img src="pics/cotton/cotton_front_0_perc.webp" class="d-block w-100" alt="Cotton Street"></a>
         Cotton Street: <b>Unavailable</b>
     </div>
 </div>
@@ -26,11 +26,11 @@
         Trailer Lot B: <b>Unavailable</b>
     </div>
     <div class="col">
-       <a href="p/d.php"> <img src="pics/d/15263.jpeg" class="d-block w-100" alt="Trailer Lot D"></a>
+       <a href="p/d.php"> <img src="pics/d/lot-d-front-20-perc.webp" class="d-block w-100" alt="Trailer Lot D"></a>
         Trailer Lot D
     </div>
     <div class="col">
-       <a href="p/e.php"> <img src="pics/e/15290.jpeg" class="d-block w-100" alt="Trailer Lot E"></a>
+       <a href="p/e.php"> <img src="pics/e/lot-e-72-perc.webp" class="d-block w-100" alt="Trailer Lot E"></a>
         Trailer Lot E: <b>Unavailable</b>
     </div>
 </div>
@@ -38,15 +38,15 @@
 <!-- Row 3 -->
 <div class="row justify-content-center text-center m-2">
     <div class="col">
-        <!-- <img src="pics\shankle\shankle_front.jpg" class="d-block w-100" alt="Rocksprings A"> -->
-        <a href="p/rocksprings-a.php">Rocksprings A</a>: <b>Unavailable</b>
+    <a href="p/rocksprings-a.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings A"></a>
+        Rocksprings A: <b>Unavailable</b>
     </div>
     <div class="col">
-        <!-- <img src="pics\barn\barn_front.jpg" class="d-block w-100" alt="Rocksprings B"> -->
-        <a href="p/rocksprings-b.php">Rocksprings B</a>: <b>Unavailable</b>
+    <a href="p/rocksprings-b.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings B"></a>
+        Rocksprings B: <b>Unavailable</b>
     </div>
     <div class="col">
-       <a href="p/cottage.php"> <img src="pics/cottage/20211120_091511.jpg" class="d-block w-100" alt="Barn Cottage"></a>
+       <a href="p/cottage.php"> <img src="pics/cottage/cottage_front_0_perc.webp" class="d-block w-100" alt="Barn Cottage"></a>
         Barn Cottage: <b>Unavailable</b>
     </div>
 </div>
