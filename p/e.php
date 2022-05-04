@@ -24,7 +24,7 @@
     <div class="carousel-item active">
       <img src="/pics/e/15290.jpeg" class="d-block w-100" alt="...">
     </div>    
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <img src="/pics/e/signal-2021-04-09-011711_001.jpeg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
