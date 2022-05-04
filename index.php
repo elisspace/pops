@@ -37,8 +37,8 @@
     <a href="p/rocksprings-a.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings A"></a>
         Rocksprings A: <b>Unavailable</b>
     </div> -->
-    <div class="col">
-    <!-- <a href="p/rocksprings-b.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings B"></a>
+    <!-- <div class="col">
+    <a href="p/rocksprings-b.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings B"></a>
         Rocksprings B: <b>Unavailable</b>
     </div> -->
     <!-- <div class="col">
