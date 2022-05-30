@@ -9,10 +9,10 @@
         <a href="p/shankle.php"><img src="pics/shankle/shankle_front_3_perc.webp" class="d-block w-100" alt="Shankle Road"></a>
         Shankle Road: <b>Unavailable</b>
     </div> -->
-    <!-- <div class="col">
+    <div class="col">
        <a href="p/barn.php"><img src="pics/barn/barn_front_0_perc.webp" class="d-block w-100" alt="Barn Apartment"></a>
         Barn Apartment
-    </div> -->
+    </div> 
     <!-- <div class="col">
        <a href="p/cotton.php"> <img src="pics/cotton/cotton_front_0_perc.webp" class="d-block w-100" alt="Cotton Street"></a>
         Cotton Street: <b>Unavailable</b>
