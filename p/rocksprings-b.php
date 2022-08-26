@@ -3,8 +3,8 @@
     include '../header.php'; 
 ?>
 
-<h2><i>Coming Soon!</i></h2>
-
+<h2><i>Photos Coming Soon!</i></h2>
+<h3><i>Under Renovation</i></h2>
 <!-- Start Carousel -->
 <div id="carousel-rocksprings-b" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
