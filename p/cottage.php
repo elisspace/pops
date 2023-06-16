@@ -48,7 +48,7 @@
 </div> <!-- End Carousel -->
 
 <strong>Farm Cottage</strong>
-<br>1BR, 1BA, living area, kitchen with eating space, laundry room with washer/dryer connections, walk-through closet, electric heat, window AC, off-street parking.  Located on a family farm, quiet and private.  Water and sewer provided, you pay electric and take care of your trash. 900 sq. ft.
+<br>1BR, 1BA, living area, kitchen with eating space, laundry room with washer/dryer connections, walk-through closet, electric heat, window AC, off-street parking.  Located on a family farm, quiet and private.  All utilities included except TV and internet. You take care of your trash. 900 sq. ft.
       
 <?php 
     include '../footer.php'; 
