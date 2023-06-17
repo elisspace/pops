@@ -5,7 +5,7 @@
 
 <!--Property Rented (or not) Row 1-->
 <div class="row justify-content-center text-center m-2 row-cols-3">
-<!--     <h1>Nothing for now!</h1> -->
+    <h1>Nothing for now!</h1>
     <!-- <div class="col">
         <a href="p/shankle.php"><img src="pics/shankle/shankle_front_3_perc.webp" class="d-block w-100" alt="Shankle Road"></a>
         Shankle Road: <b>Unavailable</b>
@@ -43,10 +43,10 @@
     <a href="p/rocksprings-b.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings B"></a>
         Rocksprings B: <b>Unavailable</b>
     </div> -->
-    <div class="col">
+<!--     <div class="col">
        <a href="p/cottage.php"> <img src="pics/cottage/cottage_front_0_perc.webp" class="d-block w-100" alt="Barn Cottage"></a>
         Barn Cottage: <b>Available</b>
-    </div>
+    </div> -->
 </div> 
 
     <!--Icons Row-->
