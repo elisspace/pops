@@ -12,11 +12,11 @@
     </div> -->
     <div class="col">
        <a href="p/barn.php"><img src="pics/barn/barn_front_0_perc.webp" class="d-block w-100" alt="Barn Apartment"></a>
-        Barn Apartment
+        Barn Apartment <b>Available</b>
     </div> 
     <div class="col">
     <a href="p/rocksprings-b.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings B"></a>
-        Rocksprings B: <b>Unavailable</b>
+        Rocksprings B: <b>Available</b>
     </div> 
      <div class="col">
        <a href="p/cottage.php"> <img src="pics/cottage/cottage_front_0_perc.webp" class="d-block w-100" alt="Barn Cottage"></a>
