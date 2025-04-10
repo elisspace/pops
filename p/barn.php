@@ -18,31 +18,31 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/pics/barn/barn_front.jpg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/barn_front.jpg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/signal-2021-04-09-011913_004.jpeg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/signal-2021-04-09-011913_004.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/signal-2021-04-09-011913_005.jpeg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/signal-2021-04-09-011913_005.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/signal-2021-04-09-011913_006.jpeg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/signal-2021-04-09-011913_006.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/signal-2021-04-09-011913_007.jpeg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/signal-2021-04-09-011913_007.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/Barn Apt 2016 006.jpg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/Barn Apt 2016 006.jpg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/Barn Apt 2016 009.jpg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/Barn Apt 2016 009.jpg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/Barn Apt 2016 012.jpg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/Barn Apt 2016 012.jpg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/barn/Barn Apt 2016 013.jpg" class="d-block w-100" alt="...">
+      <img src="/pics/barn/Barn Apt 2016 013.jpg" class="d-block img-fluid" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel-barn" data-bs-slide="prev">

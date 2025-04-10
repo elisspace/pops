@@ -20,3 +20,11 @@
     color: #fff;
     -webkit-font-smoothing: antialiased;
 }
+
+/* Barn‑apartment carousel */
+#carousel-barn .carousel-item img{
+	max-height: 80vh;      /* never taller than 80 % of the viewport */
+	width: auto;           /* shrink / grow to preserve aspect ratio   */
+	object-fit: contain;   /* keep the whole photo in view             */
+	margin-inline: auto;   /* centre portrait‑oriented photos          */
+}
