@@ -13,6 +13,10 @@
     <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="4" aria-label="Slide 5"></button>
     <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="5" aria-label="Slide 6"></button>
     <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 11"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -35,6 +39,18 @@
     </div>
     <div class="carousel-item">
       <img src="/pics/barn/signal-2021-04-09-011913_007.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/pics/barn/Barn Apt 2016 006.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/pics/barn/Barn Apt 2016 009.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/pics/barn/Barn Apt 2016 012.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/pics/barn/Barn Apt 2016 013.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel-barn" data-bs-slide="prev">
