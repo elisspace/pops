@@ -15,18 +15,10 @@
     <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 7"></button>
     <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 8"></button>
     <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 9"></button>
-    <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 10"></button>
-    <button type="button" data-bs-target="#carousel-barn" data-bs-slide-to="6" aria-label="Slide 11"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="/pics/barn/barn_front.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/pics/barn/signal-2021-04-09-011913_002.jpeg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/pics/barn/signal-2021-04-09-011913_003.jpeg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="/pics/barn/signal-2021-04-09-011913_004.jpeg" class="d-block w-100" alt="...">
