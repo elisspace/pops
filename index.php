@@ -16,7 +16,7 @@
     </div> -->
 
     <div class="col">
-    <a href="p/firethorn.php"><img src="pics/firethorn/firethorn1.jpg" class="d-block w-100" alt="Firethorn Way"></a>
+    <a href="p/firethorn.php"><img src="pics/firethorn/firethorn1.jpeg" class="d-block w-100" alt="Firethorn Way"></a>
         Firethorn Way <b>Available</b>
     </div> 
 
