@@ -16,6 +16,11 @@
     </div> -->
 
     <div class="col">
+    <a href="p/firethorn.php"><img src="pics/firethorn/firethorn1.jpg" class="d-block w-100" alt="Firethorn Way"></a>
+        Firethorn Way <b>Available</b>
+    </div> 
+
+    <div class="col">
     <a href="p/rocksprings-b.php"><img src="pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block w-100" alt="Rocksprings B"></a>
         Rocksprings B: <b>Available</b>
     </div> 
