@@ -22,7 +22,6 @@
     <button type="button" data-bs-target="#carousel-rocksprings-b" data-bs-slide-to="13" aria-label="Slide 14"></button>
     <button type="button" data-bs-target="#carousel-rocksprings-b" data-bs-slide-to="14" aria-label="Slide 15"></button>
     <button type="button" data-bs-target="#carousel-rocksprings-b" data-bs-slide-to="15" aria-label="Slide 16"></button>
-    <button type="button" data-bs-target="#carousel-rocksprings-b" data-bs-slide-to="16" aria-label="Slide 17"></button>
   </div>
 
   <div class="carousel-inner">
@@ -44,7 +43,6 @@
     <div class="carousel-item"><img src="/apply/pics/rocksprings/rocksprings13.jpg" class="d-block img-fluid" alt="..."></div>
     <div class="carousel-item"><img src="/apply/pics/rocksprings/rocksprings14.jpg" class="d-block img-fluid" alt="..."></div>
     <div class="carousel-item"><img src="/apply/pics/rocksprings/rocksprings15.jpg" class="d-block img-fluid" alt="..."></div>
-    <div class="carousel-item"><img src="/apply/pics/rocksprings/rocksprings16.jpg" class="d-block img-fluid" alt="..."></div>
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel-rocksprings-b" data-bs-slide="prev">
