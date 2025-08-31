@@ -57,7 +57,7 @@
     <div class="container py-4">
       <div class="row align-items-center g-4">
         <div class="col-lg-7">
-          <h1 class="display-5 fw-bold">Professional Services that <span class="text-primary">DESCRIPTION</span></h1>
+          <h1 class="display-5 fw-bold">JD Edwards Services</h1>
           <p class="lead mt-3">Clear scope. On-time delivery. Practical results. I help clients move from plan to execution with a calm, process-driven approach.</p>
           <div class="d-flex flex-wrap gap-2 mt-3">
             <a class="btn btn-primary btn-lg btn-cta" href="https://www.linkedin.com/in/mark-gaultney/" target="_blank" rel="noopener">View Profile on LinkedIn</a>
@@ -167,7 +167,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <h2 class="section-title h1 mb-4">Contact Me</h2>
-          <p class="text-muted">Prefer LinkedIn? <a href="https://www.linkedin.com/in/mark-gaultney/" target="_blank" rel="noopener">Send a message on LinkedIn</a> — or use the quick form below to start an email.</p>
+          <p class="text-muted">Prefer LinkedIn? <a href="https://www.linkedin.com/in/mark-gaultney/" target="_blank" rel="noopener">Send a message on LinkedIn</a> — or use the quick form below to start an email to <a href="mailto:mark@gaultneymanagement.com">mark@gaultneymanagement.com</a></p>
 
           <form id="contactForm" class="row g-3" onsubmit="return handleMailto(event)">
             <div class="col-md-6">
