@@ -18,31 +18,31 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/pics/firethorn/firethorn2.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn2.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn3.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn3.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn4.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn4.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn5.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn5.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn6.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn6.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn7.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn7.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn8.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn8.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn9.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn9.jpeg" class="d-block img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/pics/firethorn/firethorn10.jpeg" class="d-block img-fluid" alt="...">
+      <img src="/apply/pics/firethorn/firethorn10.jpeg" class="d-block img-fluid" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel-barn" data-bs-slide="prev">
