@@ -203,7 +203,6 @@
         © 2025 Copyright: <strong>Mark Gaultney</strong> &nbsp; &amp; Designed by: <a href="https://gaultara.com/" target="_blank" rel="noopener"><strong>Gaultara</strong></a>
       </div>
       <div class="small">
-        <a class="small-link me-3" href="https://gaultneymanagement.com/apply" target="_blank" rel="noopener">Rental Properties</a>
         <a class="small-link" href="https://www.linkedin.com/in/mark-gaultney/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
