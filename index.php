@@ -43,7 +43,6 @@
       <div class="collapse navbar-collapse" id="nav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <div class="d-flex gap-2 ms-lg-3">
@@ -63,9 +62,6 @@
           <div class="d-flex flex-wrap gap-2 mt-3">
             <a class="btn btn-primary btn-lg btn-cta" href="https://www.linkedin.com/in/mark-gaultney/" target="_blank" rel="noopener">View Profile on LinkedIn</a>
             <a class="btn btn-outline-primary btn-lg" href="#contact">Contact Me</a>
-          </div>
-          <div class="mt-2">
-            <a class="small-link" href="https://gaultneymanagement.com/apply" target="_blank" rel="noopener">Rental Properties</a>
           </div>
         </div>
         <div class="col-lg-5">
@@ -160,33 +156,6 @@
             </div>
           </div>
 
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="py-5 bg-white border-top border-bottom">
-    <div class="container">
-      <h2 class="section-title h1 mb-4">Services</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="p-4 border rounded-3 h-100">
-            <h3 class="h5 mb-2">Advisory & Operations</h3>
-            <p class="mb-0 text-muted">Pragmatic support for planning, budgeting, and vendor coordination to keep initiatives moving.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="p-4 border rounded-3 h-100">
-            <h3 class="h5 mb-2">Property Management</h3>
-            <p class="mb-0 text-muted">Tenant communications, maintenance workflows, and property oversight with transparent reporting.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="p-4 border rounded-3 h-100">
-            <h3 class="h5 mb-2">Process Improvement</h3>
-            <p class="mb-0 text-muted">Documented processes, measurable KPIs, and reliable follow‑through to reduce friction.</p>
-          </div>
         </div>
       </div>
     </div>
