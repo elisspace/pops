@@ -28,52 +28,52 @@
     <div class="carousel-item active">
       <img src="/apply/pics/rocksprings/rocksprings-front-72-perc.webp" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings1.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings2.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings3.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings4.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings5.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings6.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings7.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings8.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings9.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings10.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings11.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings12.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings13.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings14.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings15.jpg" class="d-block img-fluid" alt="...">
     </div>  
-    <div class="carousel-item active">
+    <div class="carousel-item ">
       <img src="/apply/pics/rocksprings/rocksprings16.jpg" class="d-block img-fluid" alt="...">
     </div>  
     <!-- <div class="carousel-item active">
@@ -89,6 +89,8 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div> <!-- End Carousel -->
+<strong>Rocksprings B Apartment</strong>
+
 <?php 
     include '../footer.php'; 
 ?>
