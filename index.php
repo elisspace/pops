@@ -69,9 +69,10 @@
             <div class="card-body">
               <h2 class="h5 mb-3">At a glance</h2>
               <div class="row g-3">
-                <div class="col-6">
-                  <div class="p-3 rounded card-placeholder d-flex align-items-center justify-content-center">Image</div>
-                </div>
+		<div class="col-6 d-flex align-items-center justify-content-center">
+		  <img src="headshot.jpg" alt="Mark Gaultney headshot"
+		       class="img-fluid rounded shadow-sm" style="max-height: 200px; object-fit: cover;">
+		</div>
                 <div class="col-6">
                   <ul class="list-unstyled small mb-0">
                     <li><span class="bullet"></span>Client-first engagement</li>
