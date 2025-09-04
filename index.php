@@ -70,7 +70,7 @@
               <h2 class="h5 mb-3">At a glance</h2>
               <div class="row g-3">
 		<div class="col-6 d-flex align-items-center justify-content-center">
-		  <img src="headshot.jpg" alt="Mark Gaultney headshot"
+		  <img src="headshot.webp" alt="Mark Gaultney headshot"
 		       class="img-fluid rounded shadow-sm" style="max-height: 200px; object-fit: cover;">
 		</div>
                 <div class="col-6">
