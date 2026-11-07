@@ -1,0 +1,35 @@
+[Unit]
+Description=Read Airtable view into Pops availability snapshot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=pops
+Group=caddy
+WorkingDirectory=/srv/platform/migration-managed/pops-repo
+LoadCredential=airtable-token:/srv/platform/migration-managed/pops-private/airtable-token
+ExecStart=/usr/bin/python3 -B /srv/platform/migration-managed/pops-repo/server/airtable_sync.py --token-file ${CREDENTIALS_DIRECTORY}/airtable-token --output /srv/platform/migration-managed/pops-private/availability/visibility.json
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+AmbientCapabilities=
+ReadWritePaths=/srv/platform/migration-managed/pops-private/availability
+MemoryMax=96M
+TasksMax=12
+LimitNOFILE=64
+TimeoutStartSec=150

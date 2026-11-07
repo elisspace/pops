@@ -1,5 +1,4 @@
-# Preview route. Included by the existing production-sites.caddy route.
-# Caddy 2.6 uses `basicauth`; credentials live outside the checkout.
+# Static preview with a read-only availability snapshot. No login or application server.
 pops.elis.space {
     encode zstd gzip
     header {
@@ -10,16 +9,21 @@ pops.elis.space {
         Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; frame-src https://airtable.com; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; form-action 'none'"
     }
     route {
-        # Preview opens directly on rentals; the consulting page remains /index.html.
         redir / /apply/ 302
-        @private path /admin /admin/* /api/admin /api/admin/*
-        basicauth @private {
-            import /srv/platform/migration-managed/pops-private/admin-users.caddy
-        }
         @dotfiles path_regexp dotfiles (^|/)\.
         respond @dotfiles 404
+        @visibility {
+            path /api/visibility
+            method GET HEAD
+        }
+        handle @visibility {
+            header Cache-Control "no-store"
+            root * /srv/platform/migration-managed/pops-private/availability
+            rewrite * /visibility.json
+            file_server
+        }
         handle /api/* {
-            reverse_proxy unix//run/platform-pops/visibility.sock
+            respond 404
         }
         handle {
             root * /srv/platform/migration-managed/pops-repo/public

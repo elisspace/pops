@@ -22,7 +22,7 @@ class Document(HTMLParser):
 
 class StaticSiteTests(unittest.TestCase):
     def test_required_pages(self):
-        expected = ['index.html', 'apply/index.html', 'apply/app.html', 'apply/maintenance.html', 'admin/index.html']
+        expected = ['index.html', 'apply/index.html', 'apply/app.html', 'apply/maintenance.html']
         expected += [f'apply/p/{key}.html' for key in IDS]
         for path in expected:
             with self.subTest(path=path):
@@ -30,7 +30,7 @@ class StaticSiteTests(unittest.TestCase):
 
     def test_documents_and_local_links(self):
         pages = list(PUBLIC.rglob('*.html'))
-        self.assertGreaterEqual(len(pages), 15)
+        self.assertGreaterEqual(len(pages), 14)
         for page in pages:
             text = page.read_text()
             doc = Document(page)
@@ -87,15 +87,19 @@ class StaticSiteTests(unittest.TestCase):
             self.assertTrue(frames[0].get('title'))
             self.assertTrue(any(t == 'a' and a.get('href') == f'https://airtable.com/{form}' for t, a in doc.elements))
 
-    def test_listing_fails_closed_and_admin_is_fixed(self):
+    def test_listing_fails_closed_and_admin_is_removed(self):
         doc = Document(PUBLIC / 'apply/index.html')
         cards = [a for _, a in doc.elements if 'data-property' in a]
         self.assertEqual({a['data-property'] for a in cards}, IDS)
         self.assertTrue(all('hidden' in a for a in cards))
         self.assertTrue(any(t == 'noscript' for t, _ in doc.elements))
-        admin = Document(PUBLIC / 'admin/index.html')
-        self.assertEqual({a['data-property'] for t, a in admin.elements if t == 'button' and 'data-property' in a}, IDS)
-        self.assertFalse(any(t == 'input' and a.get('type') == 'password' for t, a in admin.elements))
+        self.assertFalse((PUBLIC / 'admin').exists())
+        self.assertFalse((PUBLIC / 'assets/admin.js').exists())
+        self.assertFalse((ROOT / 'server/visibility.py').exists())
+        caddy = (ROOT / 'ops/pops-preview.caddy').read_text()
+        self.assertNotIn('basicauth', caddy)
+        self.assertNotIn('reverse_proxy', caddy)
+        self.assertIn('method GET HEAD', caddy)
 
     def test_gallery_for_every_property(self):
         for key in IDS:
@@ -111,13 +115,9 @@ class StaticSiteTests(unittest.TestCase):
             text = asset.read_text()
             self.assertNotRegex(text.lower(), r'bootstrap|jquery|https?://|@import')
         visibility = (PUBLIC / 'assets/visibility.js').read_text()
-        admin = (PUBLIC / 'assets/admin.js').read_text()
         gallery = (PUBLIC / 'assets/gallery.js').read_text()
         for token in ('/api/visibility', "credentials: 'same-origin'", 'validate', 'card.hidden = true'):
             self.assertIn(token, visibility)
-        for token in ('/api/admin/visibility', "method: 'PUT'", "'X-Pops-Admin': '1'", 'response.status === 409', 'response.status === 429', 'revision: saved.revision'):
-            self.assertIn(token, admin)
-        self.assertNotRegex(admin, r'localStorage|sessionStorage|password')
         for token in ('showModal', 'ArrowLeft', 'ArrowRight', 'dialog.close()', "addEventListener('close'"):
             self.assertIn(token, gallery)
 

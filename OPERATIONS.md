@@ -1,35 +1,39 @@
 # Pops: direct Git hosting
 
-## Intended workflow
+## Source and manual updates
 
-- Canonical editable checkout on Ito: `/home/eli/git/pops`.
-- Upstream: `git@github.com:elisspace/pops.git` (currently public; never commit credentials).
-- Gitea: `ssh://git@git.dontoucha.us:2222/codex-admin/pops.git`, read-only pull mirror of GitHub, normally every eight hours.
-- Review branch: `feat/static-rentals-preview`. Do **not merge until Eli approves** the `https://pops.elis.space/` preview.
-- HHI checkout target: `/srv/platform/migration-managed/pops-repo`.
-- Caddy serves only its `public/` subdirectory. `.git`, Python service code, tests and ops files are outside the public root.
-- On HHI, `cd /srv/platform/migration-managed/pops-repo && git pull` updates static pages. Repository-local configuration already makes pulls fast-forward-only. No builder, publish hook, timer or deploy command. It tracks the review branch until the approved merge/cutover.
-- The checkout uses a repository-scoped **read-only** Gitea deploy key, held only on HHI under `/srv/platform/migration-managed/pops-private/git/`. Its dedicated host-key file was pinned from Robot's independently authenticated Gitea host public key; no agent forwarding or account-wide credential is used.
-- The preview root redirects to `/apply/`; the retained consulting page is `/index.html`.
-- Public rental page: `/apply/`; application: `/apply/app.html`; maintenance: `/apply/maintenance.html`.
-- `gaultneymanagement.com` stays on its current migrated static copy until a separate approved production cutover. Preview replaces the older `pops.elis.space` only.
+- Editable checkout on Ito: `/home/eli/git/pops`.
+- Upstream: `git@github.com:elisspace/pops.git` (public; never commit credentials).
+- Gitea: `ssh://git@git.dontoucha.us:2222/codex-admin/pops.git`, read-only GitHub pull mirror, normally every eight hours.
+- Review branch: `feat/static-rentals-preview`. **Do not merge until Eli approves** the `https://pops.elis.space/` preview.
+- HHI checkout: `/srv/platform/migration-managed/pops-repo`; Caddy serves only `public/`.
+- Static page/photo updates: `cd /srv/platform/migration-managed/pops-repo && git pull`. Fast-forward only; no build, deploy command or validation gate. The repository-scoped read-only deploy key stays on HHI under `pops-private/git/`.
+- Preview root redirects to `/apply/`; Dad's profile is `/index.html`; footer links use this root-relative path.
+- Application: `/apply/app.html`; maintenance: `/apply/maintenance.html`. Existing Airtable form destinations remain unchanged.
+- `gaultneymanagement.com` remains on its previous migrated static copy until a separately approved production cutover.
 
-## Visibility administration
+## Availability: Airtable is authoritative
 
-- `/admin/` is protected by Caddy's established bcrypt Basic Authentication over HTTPS. Save its long random password in a password manager; browsers display the native login prompt. There is no self-registration or reset endpoint.
-- The only mutation is a boolean visibility flag for one fixed property ID. No editing HTML, URLs, paths, commands or arbitrary content.
-- Public `GET /api/visibility`; protected `PUT /api/admin/visibility` additionally requires the exact configured Origin, JSON content type, custom request header, strict schema and current revision.
-- Visibility controls the available-properties listing, **not confidentiality of photos or direct property links**. Photos remain public; no applicant/private documents belong in this repository.
-- A private Unix socket links Caddy to the restricted Python standard-library service, `platform-pops-visibility.service`. The service cannot write the source checkout or server config.
-- Persistent state: `/srv/platform/migration-managed/pops-private/state`, outside Git. Pulls never replace Dad's selections.
-- Credential hash include: `/srv/platform/migration-managed/pops-private/admin-users.caddy`, outside Git and publicly served roots. Plaintext handoff is private and not part of source.
-- Static HTML/CSS/JS edits appear on pull. Changes to the small Python server require `systemctl restart platform-pops-visibility`; this is not needed for photos, text, layout or visibility changes.
-- No new frontend libraries, remote fonts or CDN code. Existing Airtable-hosted application and maintenance forms remain an external service, embedded without its JavaScript helper and with direct fallback links. No form submissions are generated during testing.
+The exact view is https://airtable.com/appSUPtDVGlCyTitK/tblxo4bMBslwsHb6F/viwAl6iMsxqvAxg8w?blocks=hide . A mapped unit present in that view is visible as available; an absent unit is hidden. View membership is authoritative, rather than interpreting another status independently.
 
-## Recovery and backup
+`server/airtable_sync.py` makes read-only requests, paginates and validates the complete result, and atomically publishes only `{revision, visibility}`. Fixed record IDs map to the ten existing property pages; no Airtable text, notes, applicant data or record IDs reach the public JSON. Renaming a unit does not break its mapping. A valid empty view hides all units. An unknown record entering the view causes sync failure rather than silently losing a property; add its explicit page mapping after review.
 
-The existing authenticated HHI daily backup captured `2026-11-07T03:20:04Z` covers both old served sites and Caddy configuration; exact receipt binding and archive members were checked before maintenance. Use regular backups, not additional retained tree copies. The new checkout, credential hash and visibility state stay under `migration-managed`, included by the current HHI backup adapter; the service uses the captured `platform-` unit naming convention. New data is protected when the next regular capture completes, not retroactively by the pre-change backup.
+- Scheduler: `platform-pops-airtable-sync.timer`, hourly with up to 30 seconds of jitter and persistent catch-up. Hourly polling limits ordinary single-page API use to roughly one request per hour, rather than high-frequency polling that can exhaust a small Airtable plan.
+- Worker: `platform-pops-airtable-sync.service`, a hardened unprivileged oneshot; **no listening socket, public mutation API, password or login**.
+- Token source: `/srv/platform/migration-managed/pops-private/airtable-token`, root-owned mode `0600`, outside Git and served roots. systemd `LoadCredential` supplies a private per-execution copy. Caddy must not be able to read it. Use a PAT with only `data.records:read` and access restricted to this base; the synchronizer never sends writes.
+- Snapshot: `/srv/platform/migration-managed/pops-private/availability/visibility.json`. The worker can write only this dedicated directory; Caddy can read it.
+- Caddy exposes the **exact** `/api/visibility` route for GET/HEAD only and disables caching. Other API paths return 404. The site has no reverse proxy, admin page, authentication middleware or admin JavaScript.
+- On a network, HTTP, validation or mapping failure, leave the last successful snapshot in place. The failed systemd execution is visible in the journal; there is no automatic email/Signal alert. The next hourly execution retries. After a prolonged outage the displayed list can therefore be stale; it is not falsely refreshed on failed requests.
+- Inspect: `systemctl status platform-pops-airtable-sync.timer`, `systemctl status platform-pops-airtable-sync.service`, `journalctl -u platform-pops-airtable-sync.service`.
+- Immediate refresh after an Airtable change: `systemctl start platform-pops-airtable-sync.service` on HHI.
+- Git pulls never overwrite the token or generated snapshot. Sync source changes are used on its next execution; no backend restart is needed. Service/timer/Caddy template changes still require explicit operational installation, not merely a Git pull.
 
-## Current checkpoint
+Hidden listing status is not confidentiality: direct property pages and photos remain public. No private applicant data belongs in the repository. Frontend remains library-free and the existing forms use only Airtable-hosted embeds and direct fallback links.
 
-Static frontend and Unix-socket backend are implemented on the review branch. Parent verification: 25 Python tests pass; four JavaScript syntax checks pass; credential-pattern scan has no findings. A local integration using the VPS's exact Caddy 2.6.2 binary and a disposable trusted test certificate proved unauthenticated admin/API rejection, authenticated save/public readback/restore, cross-origin write rejection, and source/Git path denial. Browser checks confirmed the two default listings, mobile layout and photo dialog. Test servers were stopped. Independent review found no concrete security vulnerability and one queued-read failure-handling defect; the defect was reproduced by a failing regression and fixed, with the full suite passing. Additional Caddy tests rejected all tested encoded/repeated-slash/dot-segment admin variants anonymously. VPS deploy key enrolled read-only and real Gitea clone/pull verified. Preview is live at `https://pops.elis.space/` (redirects to `/apply/`) and admin is `https://pops.elis.space/admin/`. Real HTTPS acceptance verified anonymous/wrong-password rejection, authenticated change/public readback/restoration, cross-origin and injection rejection, 14 public HTML pages byte-for-byte and 97 image/script/stylesheet URLs. Existing `gaultneymanagement.com` homepage and rental section, `elis.space` and `gaultara.com` retained exact pre-cutover hashes. The Caddy route and service are active; transient transaction preimages were removed. Dad's initial Firethorn/Rocksprings B selections are retained. Private credential handoff record is `/home/eli/.local/share/pops/admin-access.txt` on Ito, never Git. No merge approved.
+## Removed administration
+
+The previous `/admin/` page, its JavaScript, mutable visibility server, Unix socket service and Basic Auth configuration are removed. Retired live login hashes and plaintext handoff are deleted after successful cutover. Historical regular backups and Git history remain unchanged; the old password no longer authenticates any route.
+
+## Recovery
+
+Use the existing authenticated HHI regular backup and its actual capture/coverage receipt, not extra retained rollback archives. The checkout, private configuration/state and Caddy configuration are under `migration-managed`; `platform-` service/timer definitions are covered by the existing adapter. The normal backup was refreshed before this cutover: capture `2026-11-07T16:42:06Z`, authenticated `trusted-signature` receipt, with actual archive members verified for predecessor source, Caddy route/include, old service, visibility state and authentication hash. New Airtable credentials/snapshot receive protection with the next regular capture, not retroactively. Keep only sanitized cutover evidence under `pops-private`; transient transaction preimages are removed after verification.

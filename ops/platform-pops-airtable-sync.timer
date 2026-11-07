@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh Pops availability from Airtable hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+RandomizedDelaySec=30
+Unit=platform-pops-airtable-sync.service
+
+[Install]
+WantedBy=timers.target
