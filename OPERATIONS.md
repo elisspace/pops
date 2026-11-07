@@ -5,7 +5,7 @@
 - Editable checkout on Ito: `/home/eli/git/pops`.
 - Upstream: `git@github.com:elisspace/pops.git` (public; never commit credentials).
 - Gitea: `ssh://git@git.dontoucha.us:2222/codex-admin/pops.git`, read-only GitHub pull mirror, normally every eight hours.
-- Review branch: `feat/static-rentals-preview`. **Do not merge until Eli approves** the `https://pops.elis.space/` preview.
+- Maintained branch: `main`, following Eli's approval of `feat/static-rentals-preview`. The live checkout tracks the Gitea mirror's `main`; `https://pops.elis.space/` remains the serving hostname.
 - HHI checkout: `/srv/platform/migration-managed/pops-repo`; Caddy serves only `public/`.
 - Static page/photo updates: `cd /srv/platform/migration-managed/pops-repo && git pull`. Fast-forward only; no build, deploy command or validation gate. The repository-scoped read-only deploy key stays on HHI under `pops-private/git/`.
 - Preview root redirects to `/apply/`; Dad's profile is `/index.html`; footer links use this root-relative path.

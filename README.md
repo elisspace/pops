@@ -22,4 +22,4 @@ node --check public/assets/visibility.js
 
 Tests are development checks, not an automatic deployment requirement. Normal static-site updates are a manual `git pull` on the VPS. Availability changes come from the Airtable view automatically, without a Git pull.
 
-The review branch must not merge into `main` until Eli approves its preview.
+Eli approved the preview and merge. `main` is the maintained branch and the live checkout tracks the Gitea mirror's `main`.
