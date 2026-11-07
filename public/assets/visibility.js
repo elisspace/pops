@@ -25,7 +25,7 @@ window.PopsVisibility = (() => {
     // Fail closed, including while a retry is in progress.
     cards.forEach(card => { card.hidden = true; });
     retry.hidden = true;
-    status.textContent = 'Checking current listings…';
+    status.textContent = 'Loading…';
     try {
       const data = await window.PopsVisibility.load();
       let shown = 0;
@@ -33,10 +33,10 @@ window.PopsVisibility = (() => {
         card.hidden = data.visibility[card.dataset.property] !== true;
         if (!card.hidden) shown++;
       });
-      status.textContent = shown ? `${shown} ${shown === 1 ? 'property is' : 'properties are'} currently listed. Explore the photos below.` : 'No properties are currently listed. You can still open the rental application above.';
+      status.textContent = shown ? '' : 'Unavailable';
     } catch (error) {
       cards.forEach(card => { card.hidden = true; });
-      status.textContent = 'Availability temporarily unavailable. Please try again, or use the rental application link above.';
+      status.textContent = 'Unable to load properties.';
       retry.hidden = false;
     }
   }

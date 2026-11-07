@@ -57,6 +57,21 @@ class StaticSiteTests(unittest.TestCase):
                         target /= 'index.html'
                     self.assertTrue(target.is_file(), f'{page}: {value}')
 
+    def test_rental_copy_stays_minimal(self):
+        banned = ['A place to', 'make your own', 'Find your next home',
+                  'Go straight to', 'Already a resident', 'Ready for the next step',
+                  'Take a look around', 'not an availability notice',
+                  'This page describes the property', 'Listings reflect',
+                  'Complete the form below', 'If the embedded form']
+        for page in (PUBLIC / 'apply').rglob('*.html'):
+            text = page.read_text()
+            for phrase in banned:
+                self.assertNotIn(phrase, text, str(page))
+        home = (PUBLIC / 'apply/index.html').read_text()
+        self.assertNotIn('rental-hero', home)
+        self.assertIn('>Application</a>', home)
+        self.assertIn('>Submit a Ticket</a>', home)
+
     def test_forms_preserve_destinations(self):
         for page, form in [('app', 'shrMUhRNEnnrSTwpN'), ('maintenance', 'shr26oqd6WR6mSa4C')]:
             doc = Document(PUBLIC / f'apply/{page}.html')
