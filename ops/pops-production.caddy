@@ -1,0 +1,33 @@
+# Production route: consulting homepage, rentals under /apply/, read-only availability.
+gaultneymanagement.com {
+    encode zstd gzip
+    header {
+        Referrer-Policy "strict-origin-when-cross-origin"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        X-Robots-Tag "noindex, nofollow, noarchive"
+        Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; frame-src https://airtable.com; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; form-action 'none'"
+    }
+    route {
+        @dotfiles path_regexp dotfiles (^|/)\.
+        respond @dotfiles 404
+        @visibility {
+            path /api/visibility
+            method GET HEAD
+        }
+        handle @visibility {
+            header Cache-Control "no-store"
+            root * /srv/platform/migration-managed/pops-private/availability
+            rewrite * /visibility.json
+            file_server
+        }
+        handle /api/* {
+            respond 404
+        }
+        handle {
+            root * /srv/platform/migration-managed/pops-repo/public
+            file_server
+        }
+    }
+}
+

@@ -101,6 +101,13 @@ class StaticSiteTests(unittest.TestCase):
         self.assertNotIn('reverse_proxy', caddy)
         self.assertIn('method GET HEAD', caddy)
 
+    def test_production_shares_static_security_and_availability(self):
+        preview = (ROOT / 'ops/pops-preview.caddy').read_text().split('\n', 1)[1]
+        production = (ROOT / 'ops/pops-production.caddy').read_text().split('\n', 1)[1]
+        expected = preview.replace('pops.elis.space {', 'gaultneymanagement.com {')
+        expected = expected.replace('        redir / /apply/ 302\n', '')
+        self.assertEqual(production.strip(), expected.strip())
+
     def test_gallery_for_every_property(self):
         for key in IDS:
             doc = Document(PUBLIC / f'apply/p/{key}.html')

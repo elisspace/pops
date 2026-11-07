@@ -10,7 +10,7 @@
 - Static page/photo updates: `cd /srv/platform/migration-managed/pops-repo && git pull`. Fast-forward only; no build, deploy command or validation gate. The repository-scoped read-only deploy key stays on HHI under `pops-private/git/`.
 - Preview root redirects to `/apply/`; Dad's profile is `/index.html`; footer links use this root-relative path.
 - Application: `/apply/app.html`; maintenance: `/apply/maintenance.html`. Existing Airtable form destinations remain unchanged.
-- `gaultneymanagement.com` remains on its previous migrated static copy until a separately approved production cutover.
+- `gaultneymanagement.com` serves this same `main` checkout after Eli's approved production cutover. Its root remains Dad's consulting profile; rentals are under `/apply/`. `www` keeps its canonical redirect to the apex. Both hostnames use the same hourly availability snapshot and ordinary manual Git pulls. The old migrated snapshot is retained unchanged, not actively served. Caddy production template: `ops/pops-production.caddy`.
 
 ## Availability: Airtable is authoritative
 
