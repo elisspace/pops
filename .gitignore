@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+# Runtime selections and credentials must never live in this checkout.
+visibility.json
+visibility.lock
+*.sock
+.env

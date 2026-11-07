@@ -1,0 +1,39 @@
+[Unit]
+Description=Pops property visibility (private Unix socket)
+After=local-fs.target
+
+[Service]
+Type=simple
+User=pops
+Group=caddy
+WorkingDirectory=/srv/platform/migration-managed/pops-repo
+ExecStart=/usr/bin/python3 -B /srv/platform/migration-managed/pops-repo/server/visibility.py --socket /run/platform-pops/visibility.sock --state-dir /srv/platform/migration-managed/pops-private/state --origin https://pops.elis.space
+RuntimeDirectory=platform-pops
+RuntimeDirectoryMode=0750
+UMask=0007
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+RestrictAddressFamilies=AF_UNIX
+CapabilityBoundingSet=
+AmbientCapabilities=
+ReadWritePaths=/run/platform-pops /srv/platform/migration-managed/pops-private/state
+MemoryMax=96M
+TasksMax=24
+LimitNOFILE=128
+
+[Install]
+WantedBy=multi-user.target
