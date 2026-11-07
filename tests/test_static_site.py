@@ -57,6 +57,12 @@ class StaticSiteTests(unittest.TestCase):
                         target /= 'index.html'
                     self.assertTrue(target.is_file(), f'{page}: {value}')
 
+    def test_footer_year_and_profile_link(self):
+        for page in PUBLIC.rglob('*.html'):
+            footer = page.read_text().split('<footer', 1)[1].split('</footer>', 1)[0]
+            self.assertIn('2026', footer, str(page))
+            self.assertRegex(footer, r'<a href="/index\.html">(?:<b>)?Mark Gaultney(?:</b>)?</a>')
+
     def test_rental_copy_stays_minimal(self):
         banned = ['A place to', 'make your own', 'Find your next home',
                   'Go straight to', 'Already a resident', 'Ready for the next step',
